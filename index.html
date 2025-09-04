@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>유품정리 사전 체크리스트 - 표</title>
+<style>
+  :root{ --ink:#111827; --muted:#6b7280; --line:#e5e7eb; --head:#f8fafc; }
+  *{box-sizing:border-box}
+  body{margin:0; font-family:system-ui,-apple-system,'Noto Sans KR',Apple SD Gothic Neo,Segoe UI,Roboto,Arial,sans-serif; color:var(--ink); background:#f7f8fb}
+  .sheet{max-width:980px; margin:20px auto; background:#fff; border:1px solid var(--line); border-radius:12px; padding:18px; box-shadow:0 4px 16px rgba(0,0,0,.04)}
+  h1{font-size:20px; margin:0 0 12px}
+  .sub{color:var(--muted); font-size:12px; margin-bottom:12px}
+  table{width:100%; border-collapse:collapse; table-layout:fixed}
+  th,td{border:1px solid var(--line); padding:8px 10px; vertical-align:top; word-break:keep-all}
+  th{background:var(--head); text-align:left}
+  .section{background:#eef2ff; font-weight:700}
+  .muted{color:var(--muted)}
+  .w-60{width:60px} .w-80{width:80px} .w-100{width:100px}
+  .row{display:flex; flex-wrap:wrap; gap:10px}
+  .opt{display:inline-block; padding:2px 8px; border:1px solid var(--line); border-radius:999px; margin:2px 6px 0 0; font-size:12px}
+  .line{display:inline-block; min-width:40px; border-bottom:1px solid var(--line)}
+  .block{padding:8px; border:1px dashed var(--line); border-radius:8px; min-height:72px}
+  @media print{
+    body{background:#fff}
+    .sheet{box-shadow:none; border:0; padding:0; max-width:190mm}
+  }
+</style>
+</head>
+<body>
+  <div class="sheet">
+    <h1>유품정리 사전 체크리스트</h1>
+    
+
+    <table>
+      <colgroup>
+        <col style="width:160px" />
+        <col />
+      </colgroup>
+      <tr><th class="section" colspan="2">1) 기본 정보</th></tr>
+      <tr>
+        <th>주거환경</th>
+        <td>
+          <span class="opt">□ 아파트</span>
+          <span class="opt">□ 빌라</span>
+          <span class="opt">□ 단독주택</span>
+          <span class="opt">□ 오피스텔</span>
+          <span class="opt">□ 기타</span>
+        </td>
+      </tr>
+      <tr>
+        <th>평수 / 구성</th>
+        <td>
+          평수: <span class="line" style="min-width:60px"></span> 평 &nbsp;|&nbsp;
+          방: <span class="line w-60"></span> 개 &nbsp;|&nbsp;
+          화장실: <span class="line w-60"></span> 개 &nbsp;|&nbsp;
+          베란다: <span class="line w-60"></span> 개
+        </td>
+      </tr>
+
+      <tr><th class="section" colspan="2">2) 접근성 · 엘리베이터 · 주차</th></tr>
+      <tr>
+        <th>현관문 크기</th>
+        <td>
+          가로: <span class="line w-80"></span> cm &nbsp;|&nbsp;
+          높이: <span class="line w-80"></span> cm
+        </td>
+      </tr>
+      <tr>
+        <th>엘리베이터</th>
+        <td>
+          <span class="opt">□ 있음</span>
+          <span class="opt">□ 없음</span>
+          <span class="muted" style="margin-left:8px">/ 엘베 앞 계단: </span>
+          <span class="opt">□ 있음</span>
+          <span class="opt">□ 없음</span>
+        </td>
+      </tr>
+      <tr>
+        <th>엘베 크기 (직접기입)</th>
+        <td>
+          문넓이: <span class="line w-80"></span> cm &nbsp;|&nbsp;
+          높이: <span class="line w-80"></span> cm &nbsp;|&nbsp;
+          가로: <span class="line w-80"></span> cm &nbsp;|&nbsp;
+          세로: <span class="line w-80"></span> cm
+        </td>
+      </tr>
+      <tr>
+        <th>사다리차/계단</th>
+        <td>
+          <span class="opt">□ 사다리차 가능</span>
+          <span class="opt">□ 사다리차 불가</span>
+          <span class="opt">□ 계단 이용</span>
+        </td>
+      </tr>
+      <tr>
+        <th>엘베 사용/요금</th>
+        <td>
+          사용: <span class="opt">□ 가능</span><span class="opt">□ 불가</span>
+          <span class="muted" style="margin-left:8px">/ 사용료: </span>
+          <span class="opt">□ 있음</span><span class="opt">□ 없음</span>
+        </td>
+      </tr>
+      <tr>
+        <th>주차 여건</th>
+        <td>
+          <span class="opt">□ 주차장 있음</span>
+          <span class="opt">□ 도로주차 가능</span>
+          <span class="opt">□ 도로주차 어려움</span>
+          <span class="opt">□ 무단주차 위험</span>
+        </td>
+      </tr>
+      <tr>
+        <th>진입로 / 차량</th>
+        <td>
+          <div class="row">
+            <span class="opt">□ 1톤 진입 가능</span>
+            <span class="opt">□ 1톤 진입 불가</span>
+            <span class="opt">□ 2.5톤 진입 가능</span>
+            <span class="opt">□ 2.5톤 진입 불가</span>
+            <span class="opt">□ 5톤 진입 가능</span>
+            <span class="opt">□ 5톤 진입 불가</span>
+            <span class="opt">□ 사다리차 진입 가능</span>
+            <span class="opt">□ 사다리차 진입 불가능</span>
+            <span class="opt">□ 기타:</span> <span class="line" style="min-width:180px"></span>
+          </div>
+        </td>
+      </tr>
+
+      <tr><th class="section" colspan="2">3) 가전 · 설비</th></tr>
+      <tr>
+        <th>에어컨</th>
+        <td>
+          대수: <span class="line w-60"></span> 대 &nbsp;|&nbsp; 철거: <span class="opt">□ 됨</span> <span class="opt">□ 안됨</span>
+        </td>
+      </tr>
+      <tr>
+        <th>냉장고</th>
+        <td>
+          4문: <span class="line w-60"></span> 대 &nbsp;|&nbsp;
+          2문: <span class="line w-60"></span> 대 &nbsp;|&nbsp;
+          김치: <span class="line w-60"></span> 대
+          <div class="muted" style="margin-top:6px">내용물: <span class="opt">□ 정리 필요</span> <span class="opt">□ 정리되어 있음</span></div>
+        </td>
+      </tr>
+      <tr>
+        <th>세탁기 / 건조기 / 스타일러</th>
+        <td>
+          세탁기: <span class="line w-60"></span> 대 &nbsp;|&nbsp;
+          건조기: <span class="line w-60"></span> 대 &nbsp;|&nbsp;
+          스타일러: <span class="line w-60"></span> 대
+        </td>
+      </tr>
+
+      <tr><th class="section" colspan="2">4) 대형 가구</th></tr>
+      <tr>
+        <th>주요 가구</th>
+        <td class="row">
+          돌침대 <span class="line w-60"></span> / 피아노 <span class="line w-60"></span> / 장롱 <span class="line w-60"></span> / 서랍장 <span class="line w-60"></span> / 침대세트 <span class="line w-60"></span>
+        </td>
+      </tr>
+      <tr>
+        <th>쇼파 (사이즈)</th>
+        <td class="row">
+          1인 <span class="line w-60"></span> / 2인 <span class="line w-60"></span> / 3인 <span class="line w-60"></span> / 4인 <span class="line w-60"></span> / 5인 <span class="line w-60"></span> / 6인 <span class="line w-60"></span>
+        </td>
+      </tr>
+      <tr>
+        <th>식탁</th>
+        <td class="row">
+          대리석 <span class="line w-60"></span> / 일반 <span class="line w-60"></span>
+        </td>
+      </tr>
+      <tr>
+        <th>기타 대형</th>
+        <td class="row">
+          책상 <span class="line w-60"></span> / 책장 <span class="line w-60"></span> / 장식장 <span class="line w-60"></span> / 안마의자 <span class="line w-60"></span> / 매트리스 <span class="line w-60"></span>
+        </td>
+      </tr>
+
+      <tr><th class="section" colspan="2">5) 소형 · 다량 품목</th></tr>
+      <tr>
+        <th>수량</th>
+        <td class="row">
+          화분 <span class="line w-60"></span> / 항아리 <span class="line w-60"></span> / 바퀴 의자 <span class="line w-60"></span> / 식탁 의자 <span class="line w-60"></span> / TV 단스 <span class="line w-60"></span> / 화장대 <span class="line w-60"></span>
+        </td>
+      </tr>
+
+      <tr><th class="section" colspan="2">6) 작업 방식 · 물량</th></tr>
+      <tr>
+        <th>작업 방식</th>
+        <td>
+          <span class="opt">□ 대면</span>
+          <span class="opt">□ 비대면</span>
+        </td>
+      </tr>
+      <tr>
+        <th>집안 짐 규모</th>
+        <td>
+          <span class="opt">□ 적음</span>
+          <span class="opt">□ 중간</span>
+          <span class="opt">□ 많음</span>
+          <span class="opt">□ 아주 많음</span>
+        </td>
+      </tr>
+
+      <tr><th class="section" colspan="2">7) 메모</th></tr>
+      <tr>
+        <th>특이사항</th>
+        <td>,</td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
